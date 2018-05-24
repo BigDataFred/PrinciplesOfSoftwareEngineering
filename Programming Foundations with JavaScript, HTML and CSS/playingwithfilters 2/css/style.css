@@ -1,0 +1,49 @@
+body {
+  background: lightblue;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 24pt;
+  color: Blue;
+}
+
+#canvas1 {
+  height: auto;
+  width: 500px;
+  border: 1px solid lightgray;
+  margin: 10pt;
+  background: white;
+}
+
+#canvas2 {
+  height: auto;
+  width: 500px;
+  border: 1px solid lightgray;
+  margin: 10pt;
+  background: white;
+}
+
+.d {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: blue;
+  width: 1200pt;
+  height: auto;
+  background: lightblue;
+  margin: 10pt;
+}
+
+.button {
+  border-style: solid;
+  border-color: gray;
+  margin: 2pt;
+  font-size: 11pt;
+  width: 90pt;
+  text-align: center;
+}
+
+#upLoadButton {
+  width: 240pt;
+}

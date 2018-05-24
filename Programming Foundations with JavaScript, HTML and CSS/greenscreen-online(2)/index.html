@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>GreenScreen Online</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script type="text/javascript" src = "https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<script type="text/javascript" src = "https://www.dukelearntoprogram.com/course1/common/js/image/SimplePixel.js"></script>
+
+<h1 id="h1" class="header">GreenScreen</h1>
+
+<canvas id="canvas1"></canvas>
+<canvas id="canvas2"></canvas>
+
+<div id="d1">  
+  <p>
+    Foreground: <input 
+  type="file" 
+  id="upLoad1"           
+  class="up" 
+  multiple="false"    
+  accept="image/*" 
+  onchange="upLoad1()">
+  </p>
+  <p>
+  Background: <input 
+  type="file" 
+  id="upLoad2"           
+  class="up" 
+  multiple="false"    
+  accept="image/*" 
+  onchange="upLoad2()">
+  </p>
+  <p>
+    <input 
+  type="button" 
+  id="createComp"           
+  class="CC" 
+  value="Create Composite"    
+  onclick="createComposite()">
+    <input 
+  type="button" 
+  id="saveComp"           
+  class="CC" 
+  value="Save Composite"    
+  onclick="saveComposite()">
+    <input 
+  type="button" 
+  id="clearCanv"           
+  class="CC" 
+  value="Clear Canvases"    
+  onclick="clearCanvases()">
+  </p>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

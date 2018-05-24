@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>usingCanvas2</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <h1>Using Canvas with Inputs</h1>
+
+<canvas id="d1" class="ca1"></canvas>
+
+<P> 
+  <input type="button" value="Cyan" id="wh" onclick="makeWhite()">
+  
+  <input type="color" value="#000000" id="clr" onchange="doColor()"> Change Color                                                                                
+</P>
+<P> 
+  <input type="range" min="0" max="100" value="0" id="sldr1" oninput="doSquare1()">Make Square #1
+</P>
+<P>   
+  <input type="range" min="0" max="100" value="0" id="sldr2" oninput="doSquare2()">Make Square #2
+</P>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

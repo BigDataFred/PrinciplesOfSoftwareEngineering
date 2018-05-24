@@ -1,0 +1,43 @@
+.header{
+  font-family: Arial, Helvetica, sans-serif;    
+  margin: 20pt;
+  color: blue;
+}
+
+#canvas1{
+  height:auto;
+  width:400px;
+  border:1px solid lightgray;
+  margin:10pt;
+}
+
+#d1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  width: 300pt;
+  height:auto;
+  background: white;
+  margin: 10pt;
+  border-style:solid;
+  border-color:gray;
+}
+
+.txtInput{
+  margin: 20pt;
+}
+
+.up{
+  width:60pt;
+  height:auto;
+  margin: 10pt;
+  background: lightgray;
+  font-weight:bold;
+  font-size: 14pt;
+  color:green;
+}
+
+.up2{
+  margin: 10pt;
+  font-weight:bold;
+  font-size: 14pt;
+}

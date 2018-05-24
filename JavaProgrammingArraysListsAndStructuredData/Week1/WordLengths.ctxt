@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=WordLengths
+comment1.params=values
+comment1.target=int\ indexOfMax(int[])
+comment2.params=s
+comment2.target=java.lang.String\ removeNonLetter(java.lang.String)
+comment3.params=resource\ counts
+comment3.target=void\ countWordLengths(edu.duke.FileResource,\ int[])
+comment4.params=
+comment4.target=void\ testCountWordLengths()
+numComments=5

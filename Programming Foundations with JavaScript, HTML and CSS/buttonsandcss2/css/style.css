@@ -1,0 +1,31 @@
+h1 {
+  Font:arial;
+  Font-size: 24pt;
+  Color:#000000;
+}
+
+div {
+  width: 140pt;
+  padding: 5pt;
+  margin: 20pt;
+  border: 3px solid lightgray;
+  font-size: 16pt;
+}
+
+.greenback {
+ background-color: orange; 
+ text-align: center;
+}
+
+.redback {
+ background-color: fuchsia; 
+ text-align: center;
+}
+
+.yellowback {
+ background-color: yellow; 
+}
+
+#CH{
+  border: 3px solid white;
+}

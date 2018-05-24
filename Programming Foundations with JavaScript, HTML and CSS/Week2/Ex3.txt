@@ -1,0 +1,16 @@
+// write your code here
+var img = new SimpleImage("duke_blue_devil.png")
+print(img);
+
+for (var pixel of img.values()){
+    x = pixel.getRed();
+    y = pixel.getGreen();
+    z = pixel.getBlue();
+    if(x+y+z<255*3){
+        pixel.setGreen(255);
+        pixel.setBlue(0);
+        pixel.setRed(255);
+    };
+}
+
+print(img);

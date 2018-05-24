@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>PlayingWithFilters</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script type="text/javascript" src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+
+<script type="text/javascript" src="https://www.dukelearntoprogram.com/course1/common/js/image/SimplePixel.js"></script>
+
+<h1 id="h1" class="header">FilterFun</h1>
+
+<canvas id="canvas1"></canvas>
+<canvas id="canvas2"></canvas>
+
+<div id="d1" class="d">
+  <p>
+    Load file:
+    <p>
+      <input type="file" id="upLoadButton" class="button" multiple="false" accept="image/*" onchange="upLoad()">
+    </p>
+  </p>
+  <p>
+</div>
+<div id="d2"  class="d">
+  <p>
+    Filters:
+  </p>
+  <input type="button" id="GSb" class="button" value="Grayscale" onclick="grayScale()">
+  <input type="button" id="Bb" class="button" value="Blurr" onclick="blurFilt()">
+  </p>
+  <p></p>
+  <p></p>
+  <p>
+    <input type="button" id="Rb" class="button" value="Red" onclick="rgbFilt()">
+    <input type="button" id="Rg" class="button" value="Green" onclick="rgbFilt()">
+    <input type="button" id="Rbl" class="button" value="Blue" onclick="rgbFilt()">
+  </p>
+  <p>
+    <input type="button" id="clearCanv" class="button" value="Clear Canvases" onclick="clearCanvases()">
+  </p>
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

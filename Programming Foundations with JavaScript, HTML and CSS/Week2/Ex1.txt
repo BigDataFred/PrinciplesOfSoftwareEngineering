@@ -1,0 +1,52 @@
+// write your code here
+
+var x = 3;
+var y = 4;
+
+var z = x*y;
+
+var k = "a";
+var l = "b";
+
+print(x)
+
+function square(x){
+    var ans = x*x;
+    return ans;
+}
+
+function cube(x){
+    var ans = x*x*x;
+    return ans;
+}
+
+print(square(z));
+print(cube(z));
+print(k+l)
+
+var img = new SimpleImage("drewRobert.png")
+print(img)
+
+
+var w = img.getWidth()
+var h = img.getHeight()
+w = w-1;
+h = h-1;
+
+var p = img.getPixel(w,h)
+var r = img.getRed(w,h)
+var g = img.getGreen(w,h)
+var b = img.getBlue(w,h)
+
+print(w,h,p,r,g,b)
+
+function getImageWidthAndHeight(img) {
+    var h = img.getHeight();
+    var w = img.getWidth();
+    var x = [w,h];
+    return x;
+}
+
+var x = getImageWidthAndHeight(img)
+print(x[0])
+print(x[1])

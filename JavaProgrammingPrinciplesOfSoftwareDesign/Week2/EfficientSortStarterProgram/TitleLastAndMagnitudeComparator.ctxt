@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=TitleLastAndMagnitudeComparator
+comment1.params=s
+comment1.target=java.lang.String\ extractLastWordFromSequence(java.lang.String)
+comment2.params=
+comment2.target=void\ testExtractWordsFromSequence()
+comment3.params=q1\ q2
+comment3.target=int\ compare(QuakeEntry,\ QuakeEntry)
+numComments=4
